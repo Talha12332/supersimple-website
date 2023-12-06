@@ -1,0 +1,71 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-main {
+    text-align: center;
+    background-color: #ffd9bb;
+    padding: 5%;
+}
+
+.container-main-two {
+    padding-top: 0%;
+}
+
+.heading-one {
+    font-family: Agency FB;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.heading-two {
+    font-weight: bold;
+    font-family: 'Chiller';
+    font-size: 40px;
+    color: #60240c;
+    padding: 4%;
+}
+
+.container-main-two {
+    color: black;
+}
+
+.container-ancillary-one {
+    font-size: 20px;
+    font-family: 'Agency FB';
+    font-weight: normal;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add soft shadow */
+}
+
+.button-one {
+    background-color: #fff9ea;
+    color: #ab6044 ;
+    border-radius: 7px;
+    border: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    margin-top: 2%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-one:hover {
+    background-color: #ebdfbb;
+}
+
+.button-one:active {
+    background-color: #753319;
+    color: #f3e6c0;
+}
